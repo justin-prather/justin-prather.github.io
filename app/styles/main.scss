@@ -3,6 +3,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 $grey: #CCC;
+$row-padding: 10px;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -17,11 +18,17 @@ body {
   padding-bottom: 20px;
 }
 
+.row{
+  padding-top: $row-padding;
+  padding-bottom: $row-padding;
+}
+
 .image {
   float: left;
   height: 177px;
   width: 344px;
   margin-top: 91px;
+  margin-bottom: 91px;
   margin-left: 10px;
   background-repeat: no-repeat;
 }
@@ -39,6 +46,13 @@ body {
   background-image: url("../images/paramedical.png")
 }
 
+.text{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .company{
   background-color: $grey;
   height: 364px;
@@ -48,7 +62,9 @@ body {
 
 .show{
   min-width: 364px;
+  min-height: 364px;
   width: 100%;
+  height: auto;
   display: inline;
 }
 
