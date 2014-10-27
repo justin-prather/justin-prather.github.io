@@ -2,6 +2,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+$grey: #CCC;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -14,6 +15,41 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.image {
+  float: left;
+  height: 177px;
+  width: 344px;
+  margin-top: 91px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+}
+
+.image-construction{
+  background-image: url("../images/construction.png")
+}
+
+.image-equestrian{
+  background-image: url("../images/equestrian.png")
+
+}
+
+.image-paramedical{
+  background-image: url("../images/paramedical.png")
+}
+
+.company{
+  background-color: $grey;
+  height: 364px;
+  width: 364px;
+  border-radius: 30px;
+}
+
+.show{
+  min-width: 364px;
+  width: 100%;
+  display: inline;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
