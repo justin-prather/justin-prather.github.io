@@ -33,6 +33,9 @@ body {
   height: 177px;
   width: 344px;
   margin: auto;
+
+  padding-top: 10px;
+
   vertical-align: middle;
   background-repeat: no-repeat;
 }
@@ -52,7 +55,9 @@ body {
 
 .text{
   margin: auto;
-  max-width: 400px;
+  max-width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   flex-shrink: 1;
 }
 
