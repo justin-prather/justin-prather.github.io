@@ -1,10 +1,10 @@
 $(function(){
   'use strict';
-  var $image = $('.image');
+  var $company = $('.company');
 
-  $image.on('click', function(){
-    var $parent = $(this).parent();
-    $parent.toggleClass('show-text');
-    $parent.find('.text').toggleClass('hide');
+  $company.on('click', function(){
+    var $company = $(this);
+    $company.toggleClass('show-text');
+    $company.find('.text').toggleClass('hide');
   });
 });
