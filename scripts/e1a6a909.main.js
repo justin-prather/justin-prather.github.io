@@ -1,0 +1,1 @@
+$(function(){"use strict";var a=$(".company");a.on("click",function(){var a=$(this);a.toggleClass("show-text"),a.find(".text").toggleClass("hide")})});
