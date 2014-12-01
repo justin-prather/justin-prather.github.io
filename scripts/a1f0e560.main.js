@@ -1,1 +1,0 @@
-$(function(){"use strict";var a=$(".image");a.on("click",function(){var a=$(this).parent();a.toggleClass("show-text"),a.find(".text").toggleClass("hide")})});
